@@ -115,7 +115,13 @@ footer {
 }
 
 h1 {
-    padding-top: 25px;
+    padding-top: 15px;
+    margin: 0;
+}
+
+hr {
+    margin: 0 0 25px 0;
+    padding: 0;
 }
 
 .content ul {
