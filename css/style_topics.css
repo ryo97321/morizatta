@@ -8,6 +8,10 @@ body {
   font-size: 15px;
   line-height: 2;
   background-image: url(../img/top.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 p,h1,h2,h3,h4,h5,h6 {
