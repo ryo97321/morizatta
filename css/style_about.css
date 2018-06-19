@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #333;
+  font-size: 15px;
+  line-height: 2;
+  background-image: url(../img/top.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+  margin-top: 0;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #3583aa;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #788d98;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  width: 960px;
+  height: 130px;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+  margin-top: 25px;
+}
+
+.global-nav {
+  float: right;
+  margin-top: 65px;
+}
+
+.global-nav li {
+  float: left;
+  margin: 0 20px;
+  font-size: 20px;
+  list-style: none;
+  font-family: 'Bitter', serif;
+}
+
+.global-nav li a {
+  color: #fff;
+}
+
+.global-nav li a:hover {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 3px;
+  text-decoration: none;
+}
+
+#wrap {
+  clear: both;
+  background-color: #fff;
+}
+
+.content {
+  width: 960px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #ccc;
+  text-align: center;
+  color: #fff;
+  padding: 20px 0;
+}
+
+footer small {
+  font-size: 12px;
+}
+
+.btn a {
+  background-color: #009cd3;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Bitter', serif;
+  width: 100px;
+  display: block;
+  text-align: center;
+  line-height: 35px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: 3px solid #009cd3;
+}
+
+.btn a:hover {
+  text-decoration: none;
+  background-color: #fff;
+  color: #009cd3;
+}
+
+h1 {
+    padding-top: 15px;
+    margin: 0;
+}
+
+hr {
+    margin: 0 0 25px 0;
+    padding: 0;
+}
+
+.content ul {
+    padding-bottom: 30px;
+    padding-left: 18px;
+    list-style: none;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.profile {
+    padding: 250px 0;
+}
+
+.content .profile img {
+    float: left;
+    margin-left: 90px;
+    border-radius: 50%;
+    border: 5px solid #000;;
+}
+
+.content .profile-image {
+    width: 460px;
+    margin: 0 auto;
+}
+
+.content .profile-txt {
+    width: 460px;
+    margin: 0 auto;
+    float: right;
+}
+
+.content .profile-txt p {
+    margin-bottom: 10px;
+}
+
+.content .profile-txt h2 {
+    font-size: 40px;
+    line-height: 1;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
