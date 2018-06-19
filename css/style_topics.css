@@ -120,9 +120,16 @@ h1 {
 
 .content ul {
     padding-bottom: 30px;
-    padding-left: 20px
+    padding-left: 18px;
+    list-style: none;
 }
 
 h2 {
     margin-bottom: 10px;
+}
+
+h2::before {
+    content: "";
+    border-left: 7px solid #2D8387;
+    padding-right: 10px;
 }
