@@ -118,9 +118,16 @@ footer {
     background-color: #ccc;
 }
 
-h1 {
+.content-header h1 {
+    float: left;
     padding-top: 15px;
     margin: 0;
+}
+
+.content-header small {
+    float: right;
+    padding-top: 50px;
+    padding-right: 10px;
 }
 
 hr {
@@ -142,4 +149,10 @@ h2::before {
     content: "";
     border-left: 7px solid #2D8387;
     padding-right: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
 }
