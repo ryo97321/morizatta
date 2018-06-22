@@ -92,7 +92,9 @@ footer small {
   line-height: 1;
   color: #fff;
   font-family: 'Bitter', serif;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding-top: 100px;
 }
 
 #index .content {
@@ -100,34 +102,38 @@ footer small {
 }
 
 #index p {
-  font-size: 16px;
+  font-size: 14px;
   color: #fff;
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 50px
 }
 
 .btn a {
-  background-color: #009cd3;
-  color: #fff;
-  font-size: 20px;
+  color: #CCCBCB;
+  font-size: 25px;
   font-family: 'Bitter', serif;
   width: 100px;
-  display: block;
   text-align: center;
   line-height: 35px;
   margin-top: 20px;
   border-radius: 5px;
-  border: 3px solid #009cd3;
 }
 
 .btn a:hover {
   text-decoration: none;
-  background-color: #fff;
-  color: #009cd3;
+  color: #fff;
 }
 
 #index footer {
   width: 960px;
-  text-align: left;
-  margin: 150px auto 0 auto;
+  text-align: center;
+  margin: 250px auto 0 auto;
 }
 
 #index {
